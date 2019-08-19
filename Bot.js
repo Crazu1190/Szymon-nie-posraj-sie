@@ -1,8 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('ready', () => { offline
-Pizda na glową pi-pi pizda na głowa
+client.on('ready', () => {
 });
 
 client.on('message', message => {
@@ -11,6 +10,9 @@ client.on('message', message => {
         message.channel.send('Klan w brawl stars: Fire Power');
         message.channel.send('**Wymagania: 1000 pucharków**');
         message.channel.send('https://link.brawlstars.com/invite/band/pl?tag=QLJ0LQJR&token=as37zskx');
+        }
+    if (message.content === 'Cześć') {
+        message.reply('Cześć!');
         }
 });
 // THIS  MUST  BE  THIS  WAY
