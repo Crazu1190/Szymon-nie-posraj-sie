@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => { offline
-
+Pizda na glową pi-pi pizda na głowa
 });
 
 client.on('message', message => {
